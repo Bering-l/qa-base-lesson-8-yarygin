@@ -5,22 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42553872-44e1-4828-b034-21e128fc6950" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/selenide.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/amplicode-jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InzhenerkaLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InzhenerkaLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InzhenerkaLoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InzhenerkaLoginTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-InzhenerkaLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-InzhenerkaLoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/selenide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dmitryyarygin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dmitryyarygin/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/InzhenerkaLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InzhenerkaLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenide.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Bering-l"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Bering-l/qa-base-lesson-8-yarygin",
+    "accountId": "72722237-36c6-4b34-a06b-159f42ed36a3"
+  }
+}]]></component>
+  <component name="GradleModuleStateConfig" initialized="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -32,12 +56,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.InzhenerkaLoginTest.executor": "Run",
+    "JUnit.InzhenerkaLoginTest.authorizationWithIncorrectLoginAndPasswordTest.executor": "Run",
+    "JUnit.InzhenerkaLoginTest.authorizationWithoutEnteringLoginAndPasswordTest.executor": "Run",
     "JUnit.InzhenerkaLoginTest.executor": "Run",
     "JUnit.InzhenerkaLoginTest.loginTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/deemounus/IdeaProjects/qa-base-lesson-8-yarygin"
+    "last_opened_file_path": "/Users/deemounus/IdeaProjects/qa-base-lesson-8-yarygin",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InzhenerkaLoginTest">
+  <component name="RunManager" selected="JUnit.InzhenerkaLoginTest.authorizationWithIncorrectLoginAndPasswordTest">
     <configuration name="InzhenerkaLoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InzhenerkaLoginTest" />
       <module name="example-project" />
@@ -62,6 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InzhenerkaLoginTest.authorizationWithIncorrectLoginAndPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="example-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InzhenerkaLoginTest" />
+      <option name="METHOD_NAME" value="authorizationWithIncorrectLoginAndPasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InzhenerkaLoginTest.authorizationWithoutEnteringLoginAndPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="example-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InzhenerkaLoginTest" />
+      <option name="METHOD_NAME" value="authorizationWithoutEnteringLoginAndPasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InzhenerkaLoginTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="example-project" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,8 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InzhenerkaLoginTest" />
+        <item itemvalue="JUnit.InzhenerkaLoginTest.authorizationWithIncorrectLoginAndPasswordTest" />
         <item itemvalue="JUnit.InzhenerkaLoginTest.loginTest" />
+        <item itemvalue="JUnit.InzhenerkaLoginTest.authorizationWithoutEnteringLoginAndPasswordTest" />
+        <item itemvalue="JUnit.InzhenerkaLoginTest" />
         <item itemvalue="Application.InzhenerkaLoginTest" />
       </list>
     </recent_temporary>
